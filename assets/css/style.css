@@ -1,0 +1,89 @@
+/* Overall Site Layout*/
+.grid-container {
+    display: grid;
+}
+
+
+/* Body Styles */
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    padding: 5px;
+    line-height: 24px;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+
+h1 + p {
+    letter-spacing: 4px;
+}
+
+h2 {
+    font-size: 24px;
+    padding: 20px;
+}
+
+
+
+/* Navigation */
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Style main image */
+
+header img {
+    width: 100%;
+    max-height: 300px;
+}
+
+/*flexbox the my-work images*/
+.portfolio-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-imgs img{
+    padding: 15px;
+    flex: auto;
+}
+
+/* remove bullets from unordered list under contacts */
+.contact-info ul {
+    list-style-type: none;
+    margin-bottom: 30px;
+    line-height: 24px;
+  }
+
+  /* Footer */
+
+footer{
+    background-color: #333;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
