@@ -29,12 +29,13 @@ h1 + p {
 h2 {
     font-size: 24px;
     padding: 20px;
+    margin-top: 20px;
 }
 
 h3 {
     font-size: 20px;
-    padding: 10px 0px 0px 0px;
-    margin: 10px 0px 0px 0px;
+    padding: 10px;
+    margin: 10px;
 }
 
 
@@ -46,6 +47,7 @@ h3 {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 2;
 }
 
 .topnav a {
@@ -96,35 +98,56 @@ header img {
 .portfolio-cards {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
     margin: 20px;
 }
 
+.portfolio-cards > article {
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+#largest-card {
+    width: 100%;
+}
+
+
 .portfolio-cards img{
     padding: 25px 35px 35px 35px;
     flex: auto;
-    max-width: 650px;
+    width: 100%;
+    height: 400px;
 }
-
+/*
 .portfolio-cards img.resize{
-    max-width: 300px;
+    max-width: 33%;
 }
-
 
 .portfolio-card-1 img.resize {
-    max-width: 600px;
-}
+    max-width: 50%;
+} */
 
 /*overlay text on image*/
-
-
-/* images move when hovered over */
-.portfolio-cards > article:hover {
-    border: 1px solid black;
-    cursor: pointer;
+.portfolio-card-item {
+    position: relative;
 }
 
+.portfolio-card-item > h3 {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    background-color: rgba(255, 255, 255, 0.397);
+}
+
+/* images show border when hovered over */
+.portfolio-cards > article {
+    transition: 0.3s;
+}
+.portfolio-cards > article:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+} 
 
 
 
@@ -135,13 +158,40 @@ header img {
     line-height: 24px;
   }
 
-  /* Footer */
+/* Footer */
 
-footer{
+footer {
     background-color: #333;
     color: #f2f2f2;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 
+}
+
+
+/* Media queries */
+
+@media screen and (max-width: 550px) {
+    header img {
+        width: 100vw;
+    }
+    .about-me-section {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+        align-items: stretch;
+    }
+    .topnav a {
+        padding: 10px 12px;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .portfolio-cards > article {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    
 }
