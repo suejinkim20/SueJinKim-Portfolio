@@ -15,18 +15,28 @@ As of 02-13-21, the following criteria have been met:
 
 Issues that are still being addressed: 
 * Continuing to experiment with the layout of the page to optimize responsive design
+    * Specifically, making the heights/sizes of the portfolio images adjust flexibly in addition to the widths.
 
 ## Usage
-This website is a portfolio website intended to showcase the website developer's work and information.
+This website is a portfolio website intended to showcase the website developer's work and information. The following screenshots show the website on a web browser.
+
+![Screen Shot 1](assets/images/screenshot1.png)
+![Screen Shot 2](assets/images/screenshot2.png)
+![Screen Shot 3](assets/images/screenshot3.png)
+![Screen Shot 4](assets/images/screenshot4.png)
+
+The website is deployed at the following link: https://suejinkim20.github.io/SueJinKim-Portfolio/
+
 
 ## Credits
 
-Tutorials used:
+* Tutorials used:
+    * https://www.w3schools.com/html/default.asp
+    * https://www.w3schools.com/css/default.asp
+* Free Images from: https://www.upsplash.com
+    * project 1 photo: https://images.unsplash.com/photo-1518226203301-8e7f833c6a94?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80
+    * project 2 photo: https://images.unsplash.com/photo-1522032662723-6649e699785f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80
 
-https://www.w3schools.com/html/default.asp
-https://www.w3schools.com/css/default.asp
-
-Free Images from: https://www.upsplash.com
 
 ## Licensing
 

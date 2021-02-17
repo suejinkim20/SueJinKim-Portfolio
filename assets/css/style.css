@@ -68,12 +68,10 @@ header img {
     max-height: 375px;
 }
 
-
 /* add container width to about me*/
 .about-me {
     max-width: 800px;
     margin: auto;
-/*    border: solid;*/
 }
 
 /* Style about me so that photo is on left*/
@@ -84,14 +82,11 @@ header img {
 .about-me-photo {
     margin: auto;
     padding: 0px 25px;
-/*    border: solid;*/
 }
 
 .about-me-text {
     margin: auto;
     padding: 0px 25px;
-/*    border: solid;*/
-
 }
 
 /*css grid my-work images*/
@@ -119,14 +114,7 @@ header img {
     width: 100%;
     height: 400px;
 }
-/*
-.portfolio-cards img.resize{
-    max-width: 33%;
-}
 
-.portfolio-card-1 img.resize {
-    max-width: 50%;
-} */
 
 /*overlay text on image*/
 .portfolio-card-item {
@@ -135,9 +123,9 @@ header img {
 
 .portfolio-card-item > h3 {
     position: absolute;
-    bottom: 40px;
-    left: 40px;
-    background-color: rgba(255, 255, 255, 0.397);
+    bottom: 30px;
+    left: 30px;
+    background-color: rgba(255, 255, 255, 0.426);
 }
 
 /* images show border when hovered over */
@@ -148,7 +136,6 @@ header img {
     transform: scale(1.06);
     cursor: pointer;
 } 
-
 
 
 /* remove bullets from unordered list under contacts */
